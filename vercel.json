@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/scorers.js": {
+      "runtime": "vercel-node@latest"
+    }
+  },
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/api/$1" }
+  ]
+}
